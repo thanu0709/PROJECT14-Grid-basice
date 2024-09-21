@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px;
+    margin: 10px;
+}   
+
+.item {
+    background-color: rgb(61, 23, 95);
+    padding: 10px;
+    color: white;
+}
+
+#item1 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+#item3 {
+    grid-row: span 2;
+}
+
+#item4 {
+    grid-row: span 3;
+}
+
+#item8 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+#item9 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
